@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jasonchang/Desktop/CLionProjects/C-Board/EndBrace.h
+
+/Users/jasonchang/Desktop/CLionProjects/C-Board/Log.cpp
+iostream
+-
+
+/Users/jasonchang/Desktop/CLionProjects/C-Board/Math.cpp
+EndBrace.h
+/Users/jasonchang/Desktop/CLionProjects/C-Board/EndBrace.h
+
+/Users/jasonchang/Desktop/CLionProjects/C-Board/main.cpp
+iostream
+-
+
