@@ -2,8 +2,26 @@
 // Created by Jason Chang on 10/19/18.
 //
 
-int Multiply(int a, int b) {
-    int result  = a * b;
+// Preprocessor Statements begin with #
+#include <iostream>
+
+#define INTEGER int
+
+#if 1
+
+const char* Log(const char* message) {
+    return message;
+}
+
+INTEGER Multiply(int a, int b) {
+    Log("Multiply");
+    
+    INTEGER result  = a * b;
     return result;
 
-#include "EndBrace.h"
+    //return a * b;
+
+    }
+//#include "EndBrace.h"
+
+#endif
