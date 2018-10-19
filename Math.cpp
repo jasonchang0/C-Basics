@@ -15,7 +15,7 @@ const char* Log(const char* message) {
 
 INTEGER Multiply(int a, int b) {
     Log("Multiply");
-    
+
     INTEGER result  = a * b;
     return result;
 
