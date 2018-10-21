@@ -33,6 +33,41 @@ int main() {
         MultiLog(32, 65);
     }
 
+    const char *ptr = nullptr;
+    if (ptr) {
+        Log(ptr);
+    } else {
+        Log("Ptr is null!");
+    }
+
+    int i = 0;
+    bool cond = true;
+    for (; cond;) {
+        // equivalent to for(int i = 0; i < 5; i += 1)
+
+        Log("Hello World!");
+        i += 1;
+
+        if (!(i < 5)) {
+            cond -= 1;
+        }
+    }
+
+    Log("==============================================");
+
+    i = 0;
+    while(i < 5) {
+        Log("Hello World");
+        i += 1;
+    }
+
+    Log("==============================================");
+
+    cond = false;
+    do {
+        Log("Hello World");
+    } while (cond);
+
     std::cout << var << std::endl;
     std::cout << large_var << std::endl;
     std::cout << sizeof(truth) << std::endl;
