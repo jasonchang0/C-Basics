@@ -9,7 +9,7 @@
 
 #if 1
 
-const char* Log(const char* message) {
+static const char* Log(const char* message) {
     return message;
 }
 

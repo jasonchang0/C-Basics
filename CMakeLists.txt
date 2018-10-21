@@ -11,4 +11,4 @@ add_executable(C_Board
         main.cpp
         Math.asm
         Math.cpp
-        Math.s)
+        Math.s Log.h)
