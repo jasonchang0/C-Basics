@@ -7,6 +7,7 @@
 
 // Declaration of Log.cpp function
 void Log(const char* message);
+void MultiLog(int a, int b);
 
 /* Static keyword to specify function is
  * only declared for one (current) translation unit.
@@ -27,6 +28,9 @@ int main() {
     char var = 65; // -2b -> 2b
     unsigned int large_var = 32; // 0 -> 4b
     bool truth = false;
+
+    MultiLog(90 ,45);
+    MultiLog(32, 65);
 
     std::cout << var << std::endl;
     std::cout << large_var << std::endl;

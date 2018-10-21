@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/jasonchang/Desktop/CLionProjects/C-Board/main.cpp
+/Users/jasonchang/Desktop/CLionProjects/C-Board/EndBrace.h
+
+/Users/jasonchang/Desktop/CLionProjects/C-Board/Math.cpp
 iostream
 -
+string
+-
+EndBrace.h
+/Users/jasonchang/Desktop/CLionProjects/C-Board/EndBrace.h
 
