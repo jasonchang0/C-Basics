@@ -4,13 +4,18 @@
 
 // Preprocessor Statements begin with #
 #include <iostream>
+
+/* Angular brackets only for compiler include path
+ * C standard library has ".h" extension while C++
+ * standard library does not.
+ */
 #include <string>
+
+#include "Log.h"
 
 #define INTEGER int
 
 #if 1
-
-void Log(const char* message);
 
 /*
 static const char* Log(const char* message) {
@@ -26,11 +31,6 @@ INTEGER Multiply(int a, int b) {
     //return a * b;
 
 #include "EndBrace.h"
-
-void MultiLog(int a, int b) {
-    auto s = std::to_string(a * b).c_str();
-    Log(s);
-}
 
 
 #endif

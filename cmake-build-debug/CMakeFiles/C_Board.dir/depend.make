@@ -5,7 +5,9 @@ CMakeFiles/C_Board.dir/Log.cpp.o: ../Log.cpp
 CMakeFiles/C_Board.dir/Log.cpp.o: ../Log.h
 
 CMakeFiles/C_Board.dir/Math.cpp.o: ../EndBrace.h
+CMakeFiles/C_Board.dir/Math.cpp.o: ../Log.h
 CMakeFiles/C_Board.dir/Math.cpp.o: ../Math.cpp
 
+CMakeFiles/C_Board.dir/main.cpp.o: ../Log.h
 CMakeFiles/C_Board.dir/main.cpp.o: ../main.cpp
 

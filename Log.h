@@ -5,10 +5,13 @@
 #ifndef C_BOARD_LOG_H
 #define C_BOARD_LOG_H
 
-#include <iostream>
+#pragma once // Header guard
+/* Prevent a header from being included
+ * more than once into a single translation
+ * unit. */
 
-void Log(const char* message) {
-    std::cout << message << std::endl;
-}
+void Log(const char* message);
+void InitLog();
+void MultiLog(int a, int b);
 
 #endif //C_BOARD_LOG_H
