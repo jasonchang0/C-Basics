@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_Board.dir/Log.cpp.o"
   "CMakeFiles/C_Board.dir/main.cpp.o"
   "CMakeFiles/C_Board.dir/Math.cpp.o"
+  "CMakeFiles/C_Board.dir/Pointer.cpp.o"
   "C_Board.pdb"
   "C_Board"
 )

@@ -177,6 +177,33 @@ Math.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Board.dir/build.make CMakeFiles/C_Board.dir/Math.cpp.s
 .PHONY : Math.cpp.s
 
+Pointer.o: Pointer.cpp.o
+
+.PHONY : Pointer.o
+
+# target to build an object file
+Pointer.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Board.dir/build.make CMakeFiles/C_Board.dir/Pointer.cpp.o
+.PHONY : Pointer.cpp.o
+
+Pointer.i: Pointer.cpp.i
+
+.PHONY : Pointer.i
+
+# target to preprocess a source file
+Pointer.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Board.dir/build.make CMakeFiles/C_Board.dir/Pointer.cpp.i
+.PHONY : Pointer.cpp.i
+
+Pointer.s: Pointer.cpp.s
+
+.PHONY : Pointer.s
+
+# target to generate assembly for a file
+Pointer.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Board.dir/build.make CMakeFiles/C_Board.dir/Pointer.cpp.s
+.PHONY : Pointer.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Math.o"
 	@echo "... Math.i"
 	@echo "... Math.s"
+	@echo "... Pointer.o"
+	@echo "... Pointer.i"
+	@echo "... Pointer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

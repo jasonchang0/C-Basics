@@ -6,7 +6,10 @@
 #include <iostream>
 #include "Log.h"
 
-// Declaration of Log.cpp function
+int point();
+
+int Multiply(int a, int b);
+// Declaration of Multiply function in Math.cpp
 
 /* Static keyword to specify function is
  * only declared for one (current) translation unit.
@@ -45,7 +48,13 @@ int main() {
     for (; cond;) {
         // equivalent to for(int i = 0; i < 5; i += 1)
 
+        if (i % 2 == 0) {
+            i += 1;
+            continue;
+        }
+
         Log("Hello World!");
+        Log(std::to_string(i).c_str());
         i += 1;
 
         if (!(i < 5)) {
@@ -68,9 +77,12 @@ int main() {
         Log("Hello World");
     } while (cond);
 
+    point();
+
     std::cout << var << std::endl;
     std::cout << large_var << std::endl;
     std::cout << sizeof(truth) << std::endl;
+
     std::cin.get();
     return 0;
 }
