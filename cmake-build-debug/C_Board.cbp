@@ -99,6 +99,15 @@
 		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Math.cpp">
 			<Option target="C_Board"/>
 		</Unit>
+		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Math.h">
+			<Option target="C_Board"/>
+		</Unit>
+		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Player.cpp">
+			<Option target="C_Board"/>
+		</Unit>
+		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Player.h">
+			<Option target="C_Board"/>
+		</Unit>
 		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Pointer.cpp">
 			<Option target="C_Board"/>
 		</Unit>

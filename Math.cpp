@@ -10,8 +10,8 @@
  * standard library does not.
  */
 #include <string>
-
 #include "Log.h"
+#include "Math.h"
 
 #define INTEGER int
 

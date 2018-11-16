@@ -5,6 +5,7 @@
 
 #include <iostream>
 #include "Log.h"
+#include "Player.h"
 
 int point();
 
@@ -33,9 +34,16 @@ static void Log(const char* message) {
  * error LNK****: Linker Error
 */
 int main() {
+    // Classes and Object Oriented Programming
+    Player player;
+    player.Move(1, -1);
+
+
+    // Variable Declaration
     char var = 65; // -2b -> 2b
     unsigned int large_var = 32; // 0 -> 4b
     bool truth = false;
+
 
     // References
     int a = 5;
@@ -62,6 +70,8 @@ int main() {
     Log(std::to_string(e).c_str());
     Log(std::to_string(f).c_str());
 
+
+    // Conditional Statements
     if (!truth) {
         MultiLog(90, 45);
         MultiLog(32, 65);
@@ -74,6 +84,8 @@ int main() {
         Log("Ptr is null!");
     }
 
+
+    // For Loops
     int i = 0;
     bool cond = true;
     for (; cond;) {
@@ -93,6 +105,8 @@ int main() {
         }
     }
 
+
+    // While Loops
     Log("==============================================");
 
     i = 0;
@@ -108,13 +122,21 @@ int main() {
         Log("Hello World");
     } while (cond);
 
+
+    // Pointers
     point();
 
     std::cout << var << std::endl;
     std::cout << large_var << std::endl;
     std::cout << sizeof(truth) << std::endl;
 
+
+    // Receive User Inputs
     std::cin.get();
     return 0;
 }
+
+
+
+
 
