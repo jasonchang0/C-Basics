@@ -15,3 +15,5 @@ void InitLog();
 void MultiLog(int a, int b);
 
 #endif //C_BOARD_LOG_H
+
+

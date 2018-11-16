@@ -32,6 +32,15 @@ INTEGER Multiply(int a, int b) {
 
 #include "EndBrace.h"
 
+void Increment(int* value) {
+    *value += 1;
+}
+
+void Increment(int& value) {
+    value += 1;
+}
+
+
 
 #endif
 
