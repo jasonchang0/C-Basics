@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_Board.dir/Math.cpp.o"
   "CMakeFiles/C_Board.dir/Pointer.cpp.o"
   "CMakeFiles/C_Board.dir/Player.cpp.o"
+  "CMakeFiles/C_Board.dir/Static.cpp.o"
   "C_Board.pdb"
   "C_Board"
 )

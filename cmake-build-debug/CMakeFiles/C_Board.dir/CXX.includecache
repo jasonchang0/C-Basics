@@ -6,41 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/jasonchang/Desktop/CLionProjects/C-Board/EndBrace.h
-
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Log.cpp
-iostream
--
-Log.h
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Log.h
-
 /Users/jasonchang/Desktop/CLionProjects/C-Board/Log.h
 iostream
 -
-
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Math.cpp
-iostream
--
-string
--
-Log.h
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Log.h
-Math.h
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Math.h
-EndBrace.h
-/Users/jasonchang/Desktop/CLionProjects/C-Board/EndBrace.h
-
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Math.h
 
 /Users/jasonchang/Desktop/CLionProjects/C-Board/Player.h
 
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Pointer.cpp
-iostream
--
-string
--
-Log.h
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Log.h
+/Users/jasonchang/Desktop/CLionProjects/C-Board/Static.cpp
 
 /Users/jasonchang/Desktop/CLionProjects/C-Board/main.cpp
 iostream

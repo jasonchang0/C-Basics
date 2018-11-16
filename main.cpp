@@ -34,13 +34,19 @@ static void Log(const char* message) {
  * error LNK****: Linker Error
 */
 int main() {
+    // Static Variables
+    extern int s_var;
+    Log(std::to_string(s_var).c_str());
+
+
     // More Classes and Structs
     Logger log;
     log.SetLevel(log.LogLevelWarning);
     log.Warn("Warning!");
     log.Error("Error!");
     log.Info("Info!");
-    std::cin.get();
+//    std::cin.get();
+
 
     // Classes and Object Oriented Programming
     Player player;
