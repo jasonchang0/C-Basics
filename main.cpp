@@ -34,6 +34,14 @@ static void Log(const char* message) {
  * error LNK****: Linker Error
 */
 int main() {
+    // More Classes and Structs
+    Logger log;
+    log.SetLevel(log.LogLevelWarning);
+    log.Warn("Warning!");
+    log.Error("Error!");
+    log.Info("Info!");
+    std::cin.get();
+
     // Classes and Object Oriented Programming
     Player player;
     player.Move(1, -1);
