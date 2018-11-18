@@ -8,9 +8,8 @@
 #include "Static.h"
 
 
-// Define static class variables with specific scope
-int Entity::x;
-int Entity::y;
+void Function();
+// Declaration of Function function in Static.cpp
 
 int point();
 
@@ -21,7 +20,7 @@ void Increment(int* value);
 // Declaration of Increment function in Math.cpp
 
 void Increment(int& value);
-// Declaration of Increment function in Math.cpp
+// Declaration of overloaded version of Increment function in Math.cpp
 
 /* Static keyword to specify function is
  * only declared for one (current) translation unit.
@@ -39,6 +38,17 @@ static void Log(const char* message) {
  * error LNK****: Linker Error
 */
 int main() {
+    // Singleton class with single instantiation
+    Singleton::Get().Hello();
+    Singlet::Get().Hello();
+
+
+    // Local static
+    Function();
+    Function();
+    Function();
+
+
     // Static for Classes and Structs
     Entity ent;
     ent.x = 2; // Entity::x = 2;
@@ -63,7 +73,6 @@ int main() {
     log.Warn("Warning!");
     log.Error("Error!");
     log.Info("Info!");
-//    std::cin.get();
 
 
     // Classes and Object Oriented Programming
