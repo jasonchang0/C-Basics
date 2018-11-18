@@ -87,6 +87,9 @@
 		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/EndBrace.h">
 			<Option target="C_Board"/>
 		</Unit>
+		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Enum.cpp">
+			<Option target="C_Board"/>
+		</Unit>
 		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Log.cpp">
 			<Option target="C_Board"/>
 		</Unit>

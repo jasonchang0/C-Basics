@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/jasonchang/Desktop/CLionProjects/C-Board/Enum.cpp" "/Users/jasonchang/Desktop/CLionProjects/C-Board/cmake-build-debug/CMakeFiles/C_Board.dir/Enum.cpp.o"
   "/Users/jasonchang/Desktop/CLionProjects/C-Board/Log.cpp" "/Users/jasonchang/Desktop/CLionProjects/C-Board/cmake-build-debug/CMakeFiles/C_Board.dir/Log.cpp.o"
   "/Users/jasonchang/Desktop/CLionProjects/C-Board/Math.cpp" "/Users/jasonchang/Desktop/CLionProjects/C-Board/cmake-build-debug/CMakeFiles/C_Board.dir/Math.cpp.o"
   "/Users/jasonchang/Desktop/CLionProjects/C-Board/Player.cpp" "/Users/jasonchang/Desktop/CLionProjects/C-Board/cmake-build-debug/CMakeFiles/C_Board.dir/Player.cpp.o"

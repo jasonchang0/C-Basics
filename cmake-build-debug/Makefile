@@ -123,6 +123,33 @@ C_Board/fast:
 	$(MAKE) -f CMakeFiles/C_Board.dir/build.make CMakeFiles/C_Board.dir/build
 .PHONY : C_Board/fast
 
+Enum.o: Enum.cpp.o
+
+.PHONY : Enum.o
+
+# target to build an object file
+Enum.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Board.dir/build.make CMakeFiles/C_Board.dir/Enum.cpp.o
+.PHONY : Enum.cpp.o
+
+Enum.i: Enum.cpp.i
+
+.PHONY : Enum.i
+
+# target to preprocess a source file
+Enum.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Board.dir/build.make CMakeFiles/C_Board.dir/Enum.cpp.i
+.PHONY : Enum.cpp.i
+
+Enum.s: Enum.cpp.s
+
+.PHONY : Enum.s
+
+# target to generate assembly for a file
+Enum.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Board.dir/build.make CMakeFiles/C_Board.dir/Enum.cpp.s
+.PHONY : Enum.cpp.s
+
 Log.o: Log.cpp.o
 
 .PHONY : Log.o
@@ -294,6 +321,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Board"
+	@echo "... Enum.o"
+	@echo "... Enum.i"
+	@echo "... Enum.s"
 	@echo "... Log.o"
 	@echo "... Log.i"
 	@echo "... Log.s"

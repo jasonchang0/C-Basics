@@ -12,6 +12,7 @@ void Function();
 // Declaration of Function function in Static.cpp
 
 int point();
+// Declaration of point function in Pointer.cpp
 
 int Multiply(int a, int b);
 // Declaration of Multiply function in Math.cpp
@@ -21,6 +22,7 @@ void Increment(int* value);
 
 void Increment(int& value);
 // Declaration of overloaded version of Increment function in Math.cpp
+
 
 /* Static keyword to specify function is
  * only declared for one (current) translation unit.
@@ -37,7 +39,25 @@ static void Log(const char* message) {
  * error C****: Compiler Error
  * error LNK****: Linker Error
 */
+
+
 int main() {
+    // Enum to replace sequential instantiation
+    // Variables behind the scenes
+    enum Example {
+        A = 5, B, C
+    };
+
+    Example prev = A;
+    Example value = B;
+    Example next = C;
+
+    if (value == 6) {
+        std::cout << prev << '\n' << next << std::endl;
+        // Do something here
+    }
+
+
     // Singleton class with single instantiation
     Singleton::Get().Hello();
     Singlet::Get().Hello();
@@ -69,7 +89,7 @@ int main() {
 
     // More Classes and Structs
     Logger log;
-    log.SetLevel(log.LogLevelWarning);
+    log.SetLevel(Logger::LevelWarning);
     log.Warn("Warning!");
     log.Error("Error!");
     log.Info("Info!");
@@ -176,6 +196,8 @@ int main() {
     std::cin.get();
     return 0;
 }
+
+
 
 
 
