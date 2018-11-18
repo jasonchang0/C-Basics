@@ -2,10 +2,15 @@
 // Created by Jason Chang on 10/19/18.
 //
 
-
 #include <iostream>
 #include "Log.h"
 #include "Player.h"
+#include "Static.h"
+
+
+// Define static class variables with specific scope
+int Entity::x;
+int Entity::y;
 
 int point();
 
@@ -34,6 +39,19 @@ static void Log(const char* message) {
  * error LNK****: Linker Error
 */
 int main() {
+    // Static for Classes and Structs
+    Entity ent;
+    ent.x = 2; // Entity::x = 2;
+    ent.y = 3; // Entity::y = 3;
+
+    Entity ent1;
+    ent1.x = 5; // Entity::x = 5;
+    ent1.y = 8; // Entity::y = 8;
+
+    ent.Print();
+    ent1.Print();
+
+
     // Static Variables
     extern int s_var;
     Log(std::to_string(s_var).c_str());

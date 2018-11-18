@@ -13,6 +13,14 @@ iostream
 /Users/jasonchang/Desktop/CLionProjects/C-Board/Player.h
 
 /Users/jasonchang/Desktop/CLionProjects/C-Board/Static.cpp
+iostream
+-
+Static.h
+/Users/jasonchang/Desktop/CLionProjects/C-Board/Static.h
+
+/Users/jasonchang/Desktop/CLionProjects/C-Board/Static.h
+iostream
+-
 
 /Users/jasonchang/Desktop/CLionProjects/C-Board/main.cpp
 iostream
@@ -21,4 +29,6 @@ Log.h
 /Users/jasonchang/Desktop/CLionProjects/C-Board/Log.h
 Player.h
 /Users/jasonchang/Desktop/CLionProjects/C-Board/Player.h
+Static.h
+/Users/jasonchang/Desktop/CLionProjects/C-Board/Static.h
 

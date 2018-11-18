@@ -114,6 +114,9 @@
 		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Static.cpp">
 			<Option target="C_Board"/>
 		</Unit>
+		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Static.h">
+			<Option target="C_Board"/>
+		</Unit>
 		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/main.cpp">
 			<Option target="C_Board"/>
 		</Unit>

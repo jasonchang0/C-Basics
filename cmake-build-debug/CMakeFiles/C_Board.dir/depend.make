@@ -16,8 +16,10 @@ CMakeFiles/C_Board.dir/Pointer.cpp.o: ../Log.h
 CMakeFiles/C_Board.dir/Pointer.cpp.o: ../Pointer.cpp
 
 CMakeFiles/C_Board.dir/Static.cpp.o: ../Static.cpp
+CMakeFiles/C_Board.dir/Static.cpp.o: ../Static.h
 
 CMakeFiles/C_Board.dir/main.cpp.o: ../Log.h
 CMakeFiles/C_Board.dir/main.cpp.o: ../Player.h
+CMakeFiles/C_Board.dir/main.cpp.o: ../Static.h
 CMakeFiles/C_Board.dir/main.cpp.o: ../main.cpp
 
