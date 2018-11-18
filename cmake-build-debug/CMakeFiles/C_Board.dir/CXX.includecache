@@ -6,41 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/jasonchang/Desktop/CLionProjects/C-Board/EndBrace.h
-
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Log.cpp
+/Users/jasonchang/Desktop/CLionProjects/C-Board/Construct.h
 iostream
 -
-Log.h
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Log.h
 
 /Users/jasonchang/Desktop/CLionProjects/C-Board/Log.h
 iostream
 -
-
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Math.cpp
-iostream
--
-string
--
-Log.h
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Log.h
-Math.h
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Math.h
-EndBrace.h
-/Users/jasonchang/Desktop/CLionProjects/C-Board/EndBrace.h
-
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Math.h
 
 /Users/jasonchang/Desktop/CLionProjects/C-Board/Player.h
-
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Pointer.cpp
-iostream
--
-string
--
-Log.h
-/Users/jasonchang/Desktop/CLionProjects/C-Board/Log.h
 
 /Users/jasonchang/Desktop/CLionProjects/C-Board/Static.h
 iostream
@@ -55,4 +29,6 @@ Player.h
 /Users/jasonchang/Desktop/CLionProjects/C-Board/Player.h
 Static.h
 /Users/jasonchang/Desktop/CLionProjects/C-Board/Static.h
+Construct.h
+/Users/jasonchang/Desktop/CLionProjects/C-Board/Construct.h
 

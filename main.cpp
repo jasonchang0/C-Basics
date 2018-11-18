@@ -6,6 +6,7 @@
 #include "Log.h"
 #include "Player.h"
 #include "Static.h"
+#include "Construct.h"
 
 
 void Function();
@@ -42,6 +43,11 @@ static void Log(const char* message) {
 
 
 int main() {
+    // Constructor of a class
+    Construct cst(5, 10);
+    cst.Print();
+
+
     // Enum to replace sequential instantiation
     // Variables behind the scenes
     enum Example {

@@ -123,6 +123,33 @@ C_Board/fast:
 	$(MAKE) -f CMakeFiles/C_Board.dir/build.make CMakeFiles/C_Board.dir/build
 .PHONY : C_Board/fast
 
+Construct.o: Construct.cpp.o
+
+.PHONY : Construct.o
+
+# target to build an object file
+Construct.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Board.dir/build.make CMakeFiles/C_Board.dir/Construct.cpp.o
+.PHONY : Construct.cpp.o
+
+Construct.i: Construct.cpp.i
+
+.PHONY : Construct.i
+
+# target to preprocess a source file
+Construct.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Board.dir/build.make CMakeFiles/C_Board.dir/Construct.cpp.i
+.PHONY : Construct.cpp.i
+
+Construct.s: Construct.cpp.s
+
+.PHONY : Construct.s
+
+# target to generate assembly for a file
+Construct.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Board.dir/build.make CMakeFiles/C_Board.dir/Construct.cpp.s
+.PHONY : Construct.cpp.s
+
 Enum.o: Enum.cpp.o
 
 .PHONY : Enum.o
@@ -321,6 +348,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Board"
+	@echo "... Construct.o"
+	@echo "... Construct.i"
+	@echo "... Construct.s"
 	@echo "... Enum.o"
 	@echo "... Enum.i"
 	@echo "... Enum.s"
