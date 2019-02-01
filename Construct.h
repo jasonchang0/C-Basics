@@ -19,6 +19,13 @@ public:
     Construct (float x, float y) {
         this->x = x;
         this->y = y;
+
+        std::cout << "Created Entity!" << std::endl;
+    }
+
+    // destructor for the class object
+    ~Construct () {
+        std::cout << "Destroyed Entity!" << std::endl;
     }
 
 //    void Init() {

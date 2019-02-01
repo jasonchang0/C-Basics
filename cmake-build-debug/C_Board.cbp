@@ -47,7 +47,7 @@
 					<Add directory="/Users/jasonchang/Desktop/CLionProjects/C-Board/."/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
@@ -70,7 +70,7 @@
 					<Add directory="/Users/jasonchang/Desktop/CLionProjects/C-Board/."/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
@@ -115,6 +115,12 @@
 			<Option target="C_Board"/>
 		</Unit>
 		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Player.h">
+			<Option target="C_Board"/>
+		</Unit>
+		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Point.cpp">
+			<Option target="C_Board"/>
+		</Unit>
+		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Point.h">
 			<Option target="C_Board"/>
 		</Unit>
 		<Unit filename="/Users/jasonchang/Desktop/CLionProjects/C-Board/Pointer.cpp">

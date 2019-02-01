@@ -24,6 +24,19 @@ void Increment(int* value);
 void Increment(int& value);
 // Declaration of overloaded version of Increment function in Math.cpp
 
+/*
+typedef struct Point {
+    int x;
+    int y;
+} Point;
+
+void changeX1 (Point pt);
+void changeX2 (Point *pt);
+void changeX3 (Point *pt);
+void changeX4 (Point *pt);
+void changeX5 (Point *pt);
+// Declaration of function in Point.cpp
+*/
 
 /* Static keyword to specify function is
  * only declared for one (current) translation unit.
@@ -41,8 +54,23 @@ static void Log(const char* message) {
  * error LNK****: Linker Error
 */
 
-
 int main() {
+    /*
+    Point *my_pt = calloc(1, sizeof(Point));
+    changeX5(my_pt);
+    printf("%d\n", my_pt->x);
+    */
+
+    /*
+    int x[5];
+    x[0] = 3; x[1] = 2; x[2] = 1; x[3] = 0;
+    char *y = (char*) x;
+    printf("%d", *y);
+    printf("\n");
+    printf("%d", *(y+3));
+    printf("\n");
+    */
+
     // Constructor of a class
     Construct cst(5, 10);
     cst.Print();
@@ -115,10 +143,11 @@ int main() {
     // References
     int a = 5;
     int* b = &a; // memory address
-    int& ref = a; // reference -> alias
+    int& ref = *b; // reference -> alias
     ref = 2;
     Increment(&a);
     Increment(a);
+    std::cout << "Twice increment completed" << std::endl;
     Log(std::to_string(a).c_str());
 
     int c = 5;
@@ -202,8 +231,6 @@ int main() {
     std::cin.get();
     return 0;
 }
-
-
 
 
 

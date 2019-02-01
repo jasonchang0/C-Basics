@@ -11,4 +11,4 @@ add_executable(C_Board
         main.cpp
         Math.asm
         Math.cpp
-        Log.h Pointer.cpp Player.cpp Player.h Math.h Static.cpp Static.h Enum.cpp Construct.cpp Construct.h)
+        Log.h Pointer.cpp Player.cpp Player.h Math.h Static.cpp Static.h Enum.cpp Construct.cpp Construct.h Point.cpp Point.h)
